@@ -19,6 +19,31 @@
   }
 
 
+  #reset:hover{
+    background-color: orange;
+  }
+
+
+  .form{
+    float: left;
+    margin-left: 60px;
+    border: 4px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #BDBDBD;
+  }
+
+  button:hover{
+    background-color: green;
+    }
+
+    input{
+      height: 30px;
+    }
+    
+
+
+
 #calc-contain{
   position: relative;
   width: 400px;
