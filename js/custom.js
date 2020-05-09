@@ -30,7 +30,7 @@ function zakatCalculator() {
     
     var zaka=[gold,silver,cash,loan,stock,tax];
    /*if someone inputs something that is not a number to output this*/
-   if(isNaN(zaka[0]) || isNaN(zaka[1]) || isNaN(zaka[2]) || isNaN(zaka[0]) || isNaN(zaka[0]) || isNaN(zaka[0])  ){
+   if(isNaN(zaka[0]) || isNaN(zaka[1]) || isNaN(zaka[2]) || isNaN(zaka[3]) || isNaN(zaka[4]) || isNaN(zaka[5])  ){
     alert('please enter a number');
  }
  
