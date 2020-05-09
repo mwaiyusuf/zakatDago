@@ -17,3 +17,22 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+function zakatCalculator() {
+  /*since every input is an strings,av to convert to integer*/
+    var gold = parseInt(document.getElementById('q').value);
+    var silver = parseInt(document.getElementById('r').value);
+    var cash = parseInt(document.getElementById('s').value);
+    var loan = parseInt(document.getElementById('t').value);
+    var stock = parseInt(document.getElementById('u').value);
+    var tax = parseInt(document.getElementById('v').value);
+    
+    var zaka=[gold,silver,cash,loan,stock,tax];
+   /*if someone inputs something that is not a number to output this*/
+   if(isNaN(zaka[0]) || isNaN(zaka[1]) || isNaN(zaka[2]) || isNaN(zaka[0]) || isNaN(zaka[0]) || isNaN(zaka[0])  ){
+    alert('please enter a number');
+ }
+ 
+
+}
