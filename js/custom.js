@@ -33,6 +33,4 @@ function zakatCalculator() {
    if(isNaN(zaka[0]) || isNaN(zaka[1]) || isNaN(zaka[2]) || isNaN(zaka[3]) || isNaN(zaka[4]) || isNaN(zaka[5])  ){
     alert('please enter a number');
  }
- 
-
-}
+ }
